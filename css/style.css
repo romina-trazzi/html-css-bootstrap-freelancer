@@ -4,12 +4,6 @@
   font-family: sans-serif;
 }
 
-*body [class*="col-"] {
-  height: 200px;
-  background-color: limegreen;
-  border: 1px solid red;
-}
-
 .navbar {
   color: white;
   font-size: 18px;
@@ -53,7 +47,7 @@ ul > li {
   color: white;
 }
 
-.green h3 {
+h3 {
   font-size: 48px;
   font-weight: bold;
 }
@@ -68,4 +62,45 @@ ul > li {
 
 .margin-top-lg {
   margin-top: 10px;
+}
+
+/* end header green */
+
+
+/* section portfolio */
+
+.portfolio, .about, .contact_me {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* end section portfolio */
+
+.portfolio .row > img {
+  width: 20%;
+}
+
+/* section about */
+
+.about {
+  color: white;
+  background-color: rgb(26, 188, 156);
+  padding-top: 30px;
+}
+
+.about p {
+  color: white;
+  background-color: rgb(26, 188, 156);
+  text-align: left;
+  padding-top: 20px;
+}
+
+.button {
+  color: white;
+  background-color: rgb(26, 188, 156);
+  border: 1px solid white;
+  padding: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
