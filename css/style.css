@@ -104,3 +104,51 @@ h3 {
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
+
+/* end section about */
+
+
+/* section contact me */
+
+.contact_me > .container > .row {
+  text-align: left;
+  line-height: 2.5em;
+  vertical-align: middle;
+  border-bottom: 1px solid grey;
+}
+
+#send {
+  border-top: 1px solid grey;
+  border-radius: 5px;
+  background-color: rgb(26, 188, 156);
+  color: white;
+  padding: 3px 5px;
+}
+
+.no_border {
+  border-style: none;
+}
+
+/* end section contact me */
+
+
+/* footer */
+
+/* first footer */
+
+.first_footer {
+  background-color: rgb(58, 84, 109);
+  color: white;
+  padding: 20px;
+}
+
+
+/* last footer */
+
+.last_footer p {
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  padding: 20px;
+}
