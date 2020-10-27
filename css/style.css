@@ -1,0 +1,71 @@
+/* Codice portfolio star con framework Bootstrap */
+
+* {
+  font-family: sans-serif;
+}
+
+*body [class*="col-"] {
+  height: 200px;
+  background-color: limegreen;
+  border: 1px solid red;
+}
+
+.navbar {
+  color: white;
+  font-size: 18px;
+}
+
+.bg-dark {
+  background-color: rgb(44, 62, 80);
+}
+
+.row .nav-item {   /* h3 */
+  color: white;
+  float: left;
+  margin-left: 400px;
+  font-weight: bold;
+}
+
+.nav-link a { /*lista di altre voci navbar */
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  display: inline;
+  margin-right: 200px;
+}
+
+ul > li {
+  list-style-type: none;
+  padding: 20px;
+  float: right;
+}
+
+
+/* end navbar blu  */
+
+/* header green */
+
+.green {
+  background-color: rgb(26, 188, 156);
+  text-align: center;
+  color: white;
+}
+
+.green h3 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.padding-top-lg {
+  padding-top: 25px;
+}
+
+.margin-bottom-lg {
+  margin-bottom: 25px;
+}
+
+.margin-top-lg {
+  margin-top: 10px;
+}
