@@ -4,64 +4,79 @@
   font-family: sans-serif;
 }
 
-.navbar {
-  color: white;
-  font-size: 18px;
-}
+/*classi utility */
 
 .bg-dark {
   background-color: rgb(44, 62, 80);
+  color: white !important;
 }
-
-.row .nav-item {   /* h3 */
-  color: white;
-  float: left;
-  margin-left: 400px;
-  font-weight: bold;
-}
-
-.nav-link a { /*lista di altre voci navbar */
-  text-decoration: none;
-  color: white;
-}
-
-ul {
-  display: inline;
-  margin-right: 200px;
-}
-
-ul > li {
-  list-style-type: none;
-  padding: 20px;
-  float: right;
-}
-
-
-/* end navbar blu  */
-
-/* header green */
 
 .green {
   background-color: rgb(26, 188, 156);
-  text-align: center;
-  color: white;
+  color: white !important;
+  margin-top: 100px !important;
 }
+
+.py-40{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.text-center{
+  text-align: center;
+}
+
+/* end classi utility */
+
+/* navbar blu */
+
+.navbar {
+  min-height:80px !important;
+}
+
+.custom_navbar {
+  margin: 0;
+  border: 0;
+  padding-bottom: 20px;
+}
+
+.navbar-nav > li > a, .custom_brand { /*testi navbar */
+  color: white !important;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top:30px !important;
+  padding-bottom:30px !important;
+}
+
+.navbar-nav > li > a:hover {
+  color: rgb(26, 188, 156) !important;
+}
+
+.custom_brand { /* start bootstrap */
+  font-size: 28px !important;
+}
+
+/* end navbar blu  */
+
+
+/* header green */
 
 h3 {
   font-size: 48px;
   font-weight: bold;
-}
-
-.padding-top-lg {
-  padding-top: 25px;
-}
-
-.margin-bottom-lg {
-  margin-bottom: 25px;
-}
-
-.margin-top-lg {
+  text-align: center;
+  text-transform: uppercase;
   margin-top: 10px;
+}
+
+.green img {
+  width: 20%;
+}
+
+.green p {
+  margin-bottom: 25px;
+  font-size: 20px;
 }
 
 /* end header green */
@@ -69,54 +84,65 @@ h3 {
 
 /* section portfolio */
 
-.portfolio, .about, .contact_me {
-  text-align: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
+.h{
+  height: 300px;
+}
+
+.pic{
+  margin-right: 20px;
+  width: 90%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
 }
 
 /* end section portfolio */
 
-.portfolio .row > img {
-  width: 20%;
-}
-
 /* section about */
 
-.about {
+#about {
   color: white;
-  background-color: rgb(26, 188, 156);
   padding-top: 30px;
+  background-color: rgb(26, 188, 156);
 }
 
-.about p {
-  color: white;
-  background-color: rgb(26, 188, 156);
+.container-sm {
+  max-width: 600px;
+  margin: auto;
+}
+
+#about p {
   text-align: left;
   padding-top: 20px;
+  padding-left: 20px;
+  font-size: 16px;
+  line-height: 1.8em;
 }
 
-.button {
+.custom_button {
   color: white;
   background-color: rgb(26, 188, 156);
   border: 1px solid white;
-  padding: 10px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 70px;
+  margin-bottom: 70px;
 }
 
+.glyphicon-save {
+  color: white;
+}
 
 /* end section about */
 
 
-/* section contact me */
+/* section contact_me */
 
-.contact_me > .container > .row {
-  text-align: left;
-  line-height: 2.5em;
-  vertical-align: middle;
-  border-bottom: 1px solid grey;
+.custom_text {
+  border: 0;
 }
+
+
 
 #send {
   border-top: 1px solid grey;
@@ -125,12 +151,6 @@ h3 {
   color: white;
   padding: 3px 5px;
 }
-
-.no_border {
-  border-style: none;
-}
-
-/* end section contact me */
 
 
 /* footer */
