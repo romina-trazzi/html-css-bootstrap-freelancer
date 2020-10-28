@@ -4,6 +4,11 @@
   font-family: sans-serif;
 }
 
+header, footer {
+  width: auto;
+  overflow-x: hidden;
+}
+
 /*classi utility */
 
 .bg-dark {
@@ -45,6 +50,13 @@
   background-color: white;
 }
 
+h3 {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
 
 /* end classi utility */
 
@@ -83,20 +95,14 @@
 
 /* header green */
 
-h3 {
-  font-size: 48px;
-  font-weight: bold;
-  text-align: center;
-  text-transform: uppercase;
-  margin-top: 10px;
-}
-
 .green img {
   width: 20%;
+  margin-bottom: 20px;
 }
 
 .green p {
   font-size: 20px;
+  margin: 0;
 }
 
 /* end header green */
@@ -154,7 +160,7 @@ h3 {
   background-color: rgb(26, 188, 156);
   border: 2px solid white;
   border-radius: 10px;
-  padding: 20px;
+  padding: 15px;
   margin-top: 30px;
   margin-bottom: 80px;
   transform: translateX(150%);
@@ -211,11 +217,11 @@ h3 {
 }
 
 .custom_send {
-  border-top: 1px solid grey !important;
-  border-radius: 5px !important;
+  border-radius: 10px !important;
   background-color: rgb(26, 188, 156) !important;
   color: white !important;
   margin: 20px 0 30px 0;
+  padding: 15px;
 }
 
 /* end main */
@@ -224,16 +230,42 @@ h3 {
 /* footer */
 
 .first_footer {
-  background-color: rgb(58, 84, 109);
   color: white;
-  padding: 20px;
+  padding: 40px;
 }
 
+.titolo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.testo {
+  font-size: 18px;
+}
+
+footer p a {
+  color: rgb(26, 188, 156);
+}
+
+.web_media a {
+  color: white;
+  padding-left: 15px;
+  font-size: 20px;
+}
+
+.web_media a:hover {
+  color: black;
+  background-color: white;
+}
+
+
 .last_footer p {
+  background-color: rgb(26, 37, 47);
   color: white;
   text-align: center;
   vertical-align: middle;
   padding: 20px;
 }
+
 
 /* end footer */
