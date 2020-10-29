@@ -18,7 +18,7 @@ header, footer {
 .green {
   background-color: rgb(26, 188, 156);
   color: white !important;
-  margin-top: 100px !important;
+  margin-top: 100px;
 }
 
 .py-40{
@@ -139,8 +139,15 @@ h3 {
   z-index: 100;
 }
 
+.fa-plus {
+  color: white;
+  font-size: 7em;
+  transform: translateY(50%);
+  visibility: hidden;
+}
+
 .parent .layer:hover {
-  background-color: rgba(26, 188, 56, 0.85);
+  background-color: rgba(26, 188, 56, 0.70);
 }
 
 

@@ -1,0 +1,7 @@
+/* media query per Bootstrap artist portfolio */
+
+@media all and (min-width: 0px) and (max-width: 767px){
+  .green {
+    margin-top: 0;
+  }
+}

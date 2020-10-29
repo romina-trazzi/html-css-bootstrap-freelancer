@@ -16,124 +16,205 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- css MediaQuery  -->
+
+    <link rel="stylesheet" href="css/mediaquery.css">
+
+
   </head>
 
   <body>
 
     <!-- header -->
-
-      <div class="header">
-        <!-- prima riga principale dell'header  -->
-        <div class="row clearfix navbar-dark bg-dark">
-          <div class="col-lg-6">
-            <h2 class="nav-item">START BOOTSTRAP</h2>
+    <header>
+      <!-- prima riga principale dell'header -->
+      <nav class="navbar navbar-default custom_navbar bg-dark navbar-fixed-top">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand custom_brand" href="#">START BOOTSTRAP</a>
           </div>
-          <div class="col-lg-6">
-            <div class="navbar-nav">
-              <ul class ="nav-link">
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Portfolio</a></li>
-              </ul>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div>
+      </nav>
+      <!-- /prima riga principale dell'header -->
+
+      <!-- seconda riga principale dell'header -->
+      <div class="green text-center py-40">
+        <div class="container">
+          <div class="col-xs-12 col-md-6 col-lg-12">
+            <img src="img/man.svg" alt="uomo sorridente">
+            <h3> START BOOTSTRAP </h3>
+            <div class = "star-wrap">
+              <span class="glyphicon glyphicon-star star-icon" aria-hidden="true"></span>
             </div>
+            <p> Graphic Artist - Web Designer - Illustrator </p>
           </div>
         </div>
-
-        <!-- /prima riga principale dell'header -->
-
-        <!-- seconda riga principale dell'header -->
-
-        <div class="row green clearfix padding-top-lg">
-          <div class="col-lg-12">
-            <img src="img/man.jpg" alt="uomo sorridente">
-            <h3 class ="margin-top-lg"> START BOOTSTRAP </h3>
-            <p class ="margin-bottom-lg"> GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR </p>
-          </div>
-        </div>
-
       </div>
 
+    </header>
     <!-- /header -->
 
     <!-- main -->
+
     <main>
 
-     <section class ="portfolio">
+      <section id="portfolio">
+        <div class="container">
+          <div class ="row text-center">
+            <div class="col-xs-12 col-md-6 col-lg-12 py-40">
+            <h3>Portfolio</h3>
+            <div class="star-wrap">
+              <span class="glyphicon glyphicon-star star-icon" aria-hidden="true"></span>
+            </div>
+          </div>
+          <div class="row h">
+            <div class="col-xs-12 col-md-6 col-lg-4 py-40">
+              <div class="parent">
+                <img class="pic" src="img/cabin.png" alt="casa di legno">
+                  <div class="layer"><i class="fas fa-plus"></i></span></div>
+              </div>
+            </div>
 
-       <div class="container">
-         <h3>PORTFOLIO</h3>
-         <div class ="container">
-           <div class = "row">
-             <div class = "col-xs-12 col-md-6 col-lg-4">
-               <img src="img/img_1.jpg" alt="">
-               <img src="img/img_2.jpg" alt="">
-               <img src="img/img_3.jpg" alt="">
-               <img src="img/img_1.jpg" alt="">
-               <img src="img/img_2.jpg" alt="">
-               <img src="img/img_3.jpg" alt="">
+            <div class="col-xs-12 col-md-6 col-lg-4 py-40">
+              <div class="parent">
+                <img class="pic" src="img/cake.png" alt="fetta di torta">
+                  <div class="layer"><i class="fas fa-plus"></i></div>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-md-6 col-lg-4 py-40">
+              <div class="parent">
+                <img class="pic" src="img/circus.png" alt="tendone del circo">
+                  <div class="layer"><i class="fas fa-plus"></i></div>
+              </div>
+            </div>
+          <div class="row h">
+            <div class="col-xs-12 col-md-6 col-lg-4 py-40">
+              <div class="parent">
+                <img class="pic" src="img/game.png" alt="videogioco">
+                  <div class="layer"><i class="fas fa-plus"></i></div>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-md-6 col-lg-4 py-40">
+              <div class="parent">
+                <img class="pic" src="img/safe.png" alt="cassaforte">
+                  <div class="layer"><i class="fas fa-plus"></i></div>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-md-6 col-lg-4 py-40">
+              <div class="parent">
+                <img class="pic" src="img/submarine.png" alt="sottomarino">
+                  <div class="layer"><i class="fas fa-plus"></i></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id = "about">
+        <div class="container-sm">
+          <div class ="row">
+            <h3> ABOUT </h3>
+            <div class = "star-wrap">
+              <span class="glyphicon glyphicon-star star-icon" aria-hidden="true"></span>
+            </div>
+            <div class="col-lg-6 col-xs-12 col-md-6">
+              <p> Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
+            </div>
+            <div class="col-lg-6 col-xs-12 col-md-6">
+              <p> You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
+            </div>
+          </div>
+          <button type="button" class="btn btn-default custom_button navbar-btn">
+            <span class="glyphicon glyphicon-save" aria-hidden="true"></span> Free Download!
+          </button>
+        </div>
+      </section>
+
+      <section id = "contact_me">
+        <div class="container-sm">
+          <div class ="row text-center">
+             <h3> CONTACT ME </h3>
+             <div class = "star-wrap">
+               <span class="glyphicon glyphicon-star star-icon" aria-hidden="true"></span>
              </div>
-           </div>
-
-       </section>
-
-     <section class = "about">
-       <h3> ABOUT </h3>
-
-       <div class="container-sm">
-         <div class ="row">
-           <div class="col-lg-6 col-xs-12 col-md-6">
-             <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-           </div>
-           <div class="col-lg-6 col-xs-12 col-md-6">
-             <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-           </div>
-         </div>
-         <input type="button" value="Download" class ="button"> </input>
-       </div>
-
-     </section>
-
-     <section class ="contact_me">
-       <div class="container-sm">
-         <h3> CONTACT ME </h3>
-           <div class="row">
-             <div class = "col-xs-12 col-md-6">
-               <div class="row"> Name </div>
-               <div class="row"> Email Address </div>
-               <div class="row"> Phone Number </div>
-               <div class="row no_border"> Message </div>
-               <div class="row no_border">
-             <input type = "submit" value = "Send" id ="send">
-           </div>
-       </div>
-
-     </section>
+             <div class="col-lg-12 col-xs-12 col-md-12">
+               <input type="text custom_text" class="form-control form_custom" placeholder="Name">
+               <input type="text custom_text" class="form-control form_custom" placeholder="Email Address">
+               <input type="text custom_text" class="form-control form_custom" placeholder="Phone Number">
+               <input type="text custom_text" class="form-control form_custom message" placeholder="Message">
+             </div>
+          </div>
+             <input class="btn btn-default custom_send" type="submit" value="Send">
+      </section>
 
     </main>
 
-    <!-- / main -->
+    <!-- /main -->
 
     <!-- footer -->
 
-   <footer>
-     <section class="row first_footer">
-       <div class="container">
-        <div class="col-lg-4 col-xs-12 col-md-4"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-         </div>
-         <div class="col-lg-4 col-xs-12 col-md-4"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-         </div>
-         <div class="col-lg-4 col-xs-12 col-md-4"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-         </div>
-       </div>
-     </section>
+    <footer>
 
-     <section class="row last_footer bg-dark">
-       <div class="col-lg-12">
-         <p><small> Copyright Your Website 2019 </small></p>
-       </div>
-     </section>
+      <section class="row first_footer text-center bg-dark">
+        <div class="container">
+          <div class="col-lg-4 col-md-4 col-xs-12">
+            <p>
+              <span class ="titolo"> LOCATION </span>
+              <p class ="testo"> <br> 2215 John Daniel Drive <br> Clark, MO 65243 </p>
+            </p>
+          </div>
 
-   </footer>
+          <div class="col-lg-4 col-md-4 col-xs-12">
+            <p>
+              <span class ="titolo"> AROUND THE WEB </span>
+              <div class ="web_media">
+                <a><i class="fab fa-facebook"></i></a>
+                <a><i class="fab fa-twitter"></i></a>
+                <a><i class="fab fa-linkedin-in"></i></a>
+                <a><i class="fab fa-fw fa-dribbble"></i></a>
+              </div>
+            </p>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-xs-12">
+           <p>
+             <span class ="titolo"> ABOUT FREELANCER </span>
+             <p class ="testo"> <br> Freelance is free to use, Mit <br> licensed Bootstrat theme created by <br>
+               <a href="http://startbootstrap.com/"> Start Bootstrap</a>.
+             </p>
+           </p>
+          </div>
+        </div>
+
+      </section>
+
+      <section class="row last_footer">
+        <div class="col-lg-12">
+          <p> <small> Copyright &#169; Your Website 2020 </small></p>
+        </div>
+      </section>
+
+    </footer>
    <!-- /footer -->
 
 
