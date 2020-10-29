@@ -116,12 +116,33 @@ h3 {
   height: 300px;
 }
 
+.parent {
+  position: relative;
+  height: 240.5px;
+  width: auto;
+}
+
 .pic {
   width: 90%;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 10px;
 }
+
+.layer {
+  height: 100%;
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  z-index: 100;
+}
+
+.parent .layer:hover {
+  background-color: rgba(26, 188, 56, 0.85);
+}
+
 
 #portfolio .star-wrap::before, #portfolio .star-wrap::after {
   background-color: rgb(44, 62, 80);
@@ -130,6 +151,7 @@ h3 {
 #portfolio .star-icon {
   color: rgb(44, 62, 80);
 }
+
 
 /* end section portfolio */
 
@@ -183,7 +205,7 @@ h3 {
   margin-top: 50px;
 }
 
-#contact_me h3 {
+#contact_me h3, #portfolio h3 {
   color: rgb(44, 62, 80);
 }
 
@@ -227,6 +249,8 @@ h3 {
 /* end main */
 
 
+
+
 /* footer */
 
 .first_footer {
@@ -266,6 +290,5 @@ footer p a {
   vertical-align: middle;
   padding: 20px;
 }
-
 
 /* end footer */
